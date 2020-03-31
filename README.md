@@ -1,12 +1,12 @@
-# _Transportation Survey_
+# _Stress Test_
 
-#### _Epicodus project that uses two forms with checkboxes to survey the user about work and recreational transportation methods, March 27, 2020_
+#### _Epicodus project that uses two forms with checkboxes to survey the user about stress and health-symptoms related to stress, March 31, 2020_
 
 #### By _**DJ Zevenbergen and Matt Stroud**_
 
 ## Description
 
-_Epicodus project using jQuery, Bootstrap, CSS, HTML, and Javascript, and uses two forms with checkboxes to survey the user about work and recreational transportation methods._
+_Epicodus project using jQuery, Bootstrap, CSS, HTML, and Javascript, and uses two forms with checkboxes to survey the user about stress and health issues related to stress. It then provides advice._
 
 ## Setup/Installation Requirements
 

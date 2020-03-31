@@ -6,37 +6,27 @@
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <script src="js/jquery-3.4.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Transportation Survey</title>
+  <title>Stress Test</title>
 </head>
 
 <body>
   <div class="container">
     <div class="jumbotron">
-      <h1>Transportation Survey</h1>
+      <h1>Stress Test</h1>
+      <p>Find out what will help you with your stress</p>
     </div>
 
-    <form id="transpoForm">
+    <form id="stressForm">
       <div class="form-group" id="questionOne">
         <p>
-          In the past year, I have used the following modes of Transportation
-          to travel to work or school:
+          In the past year, have you experienced any of these warning signs?
         </p>
 
-        <input type="checkbox" name="work-transportation" value="bike"> Riding a bike.<br>
-        <input type="checkbox" name="work-transportation" value="car">Driving a car.<br>
-        <input type="checkbox" name="work-transportation" value="carpool">Carpooling with others.<br>
-        <input type="checkbox" name="work-transportation" value="walk">Walking.<br>
-        <input type="checkbox" name="work-transportation" value="bus">Riding the bus.<br>
-        <input type="checkbox" name="work-transportation" value="train">Riding the train.<br>
-        <input type="checkbox" name="work-transportation" value="streetcar">Riding the streetcar.<br>
-        <input type="checkbox" name="work-transportation" value="taxi">Taking a taxi.<br>
-        <input type="checkbox" name="work-transportation" value="rideshare">Using a rideshare service like Lyft or
-        Uber.<br>
-        <input type="checkbox" name="work-transportation" value="skateboard">Skateboarding.<br>
-        <input type="checkbox" name="work-transportation" value="rollerblade">Rollerblading.<br>
-        <input type="checkbox" name="work-transportation" value="scooter">Riding a scooter.<br>
-        <input type="checkbox" name="work-transportation" value="other">Another mode of transportation not listed
-        here.<br>
+        <input type="checkbox" name="warning-sign" value="sleep"> Loss of sleep.<br>
+        <input type="checkbox" name="warning-sign" value="overwhelmed">Feeling overwhelmed.<br>
+        <input type="checkbox" name="warning-sign" value="irritability">Irritability.<br>
+        <input type="checkbox" name="warning-sign" value="doom">Feeling of impending doom.<br>
+
 
         <button type="button" id="nextQuestion">Next Question</button>
 
@@ -45,26 +35,13 @@
 
       <div class="form-group" id="questionTwo">
         <p>
-          In the past year, I have used the following modes of Transportation
-          to travel to other activities and events:
+          In the past year, have you experience any of these health symptoms?
         </p>
 
-        <input type="checkbox" name="fun-transportation" value="bike"> Riding a bike.<br>
-        <input type="checkbox" name="fun-transportation" value="car">Driving a car.<br>
-        <input type="checkbox" name="fun-transportation" value="carpool">Carpooling with others.<br>
-        <input type="checkbox" name="fun-transportation" value="walk">Walking.<br>
-        <input type="checkbox" name="fun-transportation" value="bus">Riding the bus.<br>
-        <input type="checkbox" name="fun-transportation" value="train">Riding the train.<br>
-        <input type="checkbox" name="fun-transportation" value="streetcar">Riding the streetcar.<br>
-        <input type="checkbox" name="fun-transportation" value="taxi">Taking a taxi.<br>
-        <input type="checkbox" name="fun-transportation" value="rideshare">Using a rideshare service like Lyft or
-        Uber.<br>
-        <input type="checkbox" name="fun-transportation" value="skateboard">Skateboarding.<br>
-        <input type="checkbox" name="fun-transportation" value="rollerblade">Rollerblading.<br>
-        <input type="checkbox" name="fun-transportation" value="scooter">Riding a scooter.<br>
-        <input type="checkbox" name="fun-transportation" value="other">Another mode of transportation not listed
-        here.<br>
-
+        <input type="checkbox" name="health-symptom" value="blood"> High blood pressure.<br>
+        <input type="checkbox" name="health-symptom" value="anxiety">Anxiety.<br>
+        <input type="checkbox" name="health-symptom" value="heart">Heart palpitations.<br>
+        <input type="checkbox" name="health-symptom" value="death">Sudden death.<br>
 
 
         <button type="submit">Submit</button>
@@ -74,17 +51,17 @@
     </form>
 
     <div class="suggestionOne">
-
-
-    </div>
-
-    <div class="suggestionOne">
-
+      <p>See a doctor.</p>
 
     </div>
 
-    <div class="suggestionOne">
+    <div class="suggestionTwo">
+      <p>Go for a walk</p>
 
+    </div>
+
+    <div class="suggestionThree">
+      <p>You are dead, it doesn't matter</p>
 
     </div>
 
